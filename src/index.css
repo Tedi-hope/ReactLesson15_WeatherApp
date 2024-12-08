@@ -19,7 +19,7 @@
     z-index:1;
 }
 .location input{
-    width:25%;
+    width:22%;
     height:44px;
     background-color:#ffe8f7;
     color:#412728;
@@ -51,7 +51,7 @@ outline:none;
 }
 .city h2{
     rotate:-90deg;
-    margin-top:55px;
+    margin-top:65px;
 }
 
 .bottom{
