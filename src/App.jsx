@@ -6,13 +6,13 @@ function App() {
   <div className="location mt-2">
     <div className="container p-5 ">
       <div className="d-flex flex-row justify-content-center ">
-           <input type="text" class="rounded-5 text-center text-white" placeholder="Enter Location"/>
+           <input type="text" class="rounded-5 text-center" placeholder="Enter Location"/>
       </div>
      </div>
   </div>
 
   <div className="city ">
-    <div className="container  border border-1 p-5 ">
+    <div className="container p-5 ">
       <div className="d-flex flex-row justify-content-between ">
          <div className="d-flex flex-column justify-content-center">
          <h3 className="text-white ms-2">Addis Ababa</h3>
@@ -26,9 +26,10 @@ function App() {
   </div>
 
 <div className="bottom ">
-  <div className="container border border-1 p-5 text-white ">
-
-    <div className="d-flex flex-row justify-content-evenly ">
+  <div className="container p-5 text-white ">
+  
+  <div className="allbottomparts">
+    <div className="d-flex flex-row justify-content-evenly">
       <div className="d-flex flex-column me-4">
         <h3 className="text-center">17</h3>
         <h2>Feels Like</h2>
@@ -45,7 +46,7 @@ function App() {
       </div>
 
     </div>
-           
+  </div>
     </div>
   </div>
      
