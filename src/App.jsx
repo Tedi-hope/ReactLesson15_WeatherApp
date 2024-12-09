@@ -90,7 +90,7 @@ function App() {
     <div className="d-flex flex-row justify-content-evenly">
       <div className="d-flex flex-column me-4">
         <h3 className="text-center">
-          {data ? Math.round(data.main.feels_like) + "degree":""}</h3>
+          {data ? Math.round(data.main.feels_like):""}</h3>
         <h2>Feels Like</h2>
       </div>
      
